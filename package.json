@@ -1,0 +1,12 @@
+{
+  "name": "dga-slides",
+  "private": true,
+  "scripts": {
+    "dev": "slidev speech.md --open",
+    "build": "slidev build speech.md"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.14.2",
+    "@slidev/theme-default": "^0.25.0"
+  }
+}
