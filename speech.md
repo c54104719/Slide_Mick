@@ -1,18 +1,17 @@
 ---
 theme: default
-title: Drosophila Genome Atlas 專題提案
+title: Bug Genome Atlas 專題提案
 info: 7-10 分鐘課堂報告
 transition: fade
 mdc: true
 ---
 
-# Drosophila Genome Atlas
+# Bug Genome Atlas
 
-## 論文課程專題提案
 
-報告者：朱昱光  C54104719
-科系：不分系(主修資訊工程與生命科學)
-課程：文本跨閱與思辨方法 TEXTUAL CROSS-READING AND ISSUE CRITICISM
+- 報告者：朱昱光  C54104719
+- 科系：不分系(主修資訊工程與生命科學)
+- 文本跨閱與思辨方法 TEXTUAL CROSS-READING AND ISSUE CRITICISM
 
 <!--
 開場 20-30 秒：
@@ -27,15 +26,34 @@ layout: section
 
 # 1. Why
 
-為什麼選這個題目？
+那又怎麼樣？
 
 <!--
 10 秒轉場
 -->
 
+
+---
+layout: two-cols
+---
+# 昆蟲未來會大幅影響人類
+
+- 蜜蜂數量會大幅減少：IPBES 報告指出，到 2050 年全球將有約 **40%** 的野蜂面臨滅絕威脅。
+  - 全球植物數量減少，蔬果、肉品價格上升
+  - 生態大幅影響
+  - 棉製紡織品會數量減少、價格上升
+- 蚊子、赤甲蟲數量將大幅增加：WHO(世界衛生組織)報告指出，預計到 2050 年，全球約 **49%**（近半數）的人口 將生活在埃及斑蚊與白線斑蚊棲息的區域。
+  - 蚊子是世界上造成人類死亡最多的動物，每年有70~100萬人死於蚊媒病。
+  - 赤擬谷盜會取食穀物的胚芽部位，導致種子發芽率喪失，導致糧倉發生大規模霉變。
+
+::right::
+<div style="margin-top: 56px;">
+   <img src="./螢幕擷取畫面 2026-04-17 151343.png" style="width:72%; border-radius:10px; display:block; margin:0 auto 12px auto;" />
+   <img src="./bugTcas.png" style="width:72%; border-radius:10px; display:block; margin:0 auto;" />
+</div>
 ---
 
-# 為什麼做 Drosophila Genome Atlas？
+# 為什麼做 Bug Genome Atlas？
 
 1. 果蠅是經典模式生物，
    累積大量遺傳與發育研究資料
@@ -64,7 +82,7 @@ layout: section
 
 # 2. 重要性
 
-這個題目的重要性是什麼？
+81宮格
 
 ---
 
@@ -127,18 +145,18 @@ layout: section
 
 # 寫作地圖（章節順序）
 
-1. Methods（先完成）放在第2章
+1. Methods 第3章
    - 2.1 資料如何收集與清理
    - 2.2 演算法如何推估每個基因的功能與意義
    - 2.3 平台如何建立
-2. Case Study 放在第3章
+2. Case Study 第4章
    - 示範使用流程
    - 展示平台可產生的生物學洞見
    - 3.1 蜜蜂學家如何用這個研究蜜蜂的基因
-   - 3.2 果蠅眼化學家如何透過這個研究
-3. Introduction（回填）
+   - 3.2 果蠅演化學家如何透過這個研究基因
+3. Introduction 第2章
    - 問題背景、研究缺口、本文貢獻
-4. Abstract（最後）
+4. Abstract 第1章
    - 濃縮研究目的、方法、結果與意義
 
 <!--
@@ -147,7 +165,6 @@ layout: section
 - 再用 Case Study 連接方法與價值
 -->
 
-layout: end
 ---
 
 # 結論
@@ -162,3 +179,54 @@ layout: end
 收尾 20-30 秒
 整體時間約 8-9 分鐘，可依課堂節奏拉到 10 分鐘
 -->
+
+---
+# References
+
+<div style="font-size: 12px; opacity: 0.75; margin-top: -6px;">(1/2)</div>
+
+<div style="font-size: 12px; line-height: 1.35;">
+
+1. Ashburner, M., Ball, C. A., Blake, J. A., Botstein, D., Butler, H., Cherry, J. M., Davis, A. P., Dolinski, K., Dwight, S. S., Eppig, J. T., Harris, M. A., Hill, D. P., Issel-Tarver, L., Kasarskis, A., Lewis, S., Matese, J. C., Richardson, J. E., Ringwald, M., Rubin, G. M., & Sherlock, G. (2000). Gene Ontology: Tool for the unification of biology. Nature Genetics, 25(1), 25-29.
+
+2. Bergman, C. M., Pfeiffer, B. D., Rincon-Limas, D. E., Hoskins, R. A., Gnirke, A., Reese, M. G., Wang, J. P., Lewis, S. E., Celniker, S. E., & Rubin, G. M. (2002). Assessing the impact of comparative genomic sequence data on the functional annotation of the Drosophila genome. Genome Biology, 3(12), research0086.1.
+
+3. Drosophila 12 Genomes Consortium. (2007). Evolution of genes and genomes on the Drosophila phylogeny. Nature, 450(7167), 203-218.
+
+4. Gabaldon, T., & Koonin, E. V. (2013). Functional and evolutionary implications of gene orthology. Nature Reviews Genetics, 14(5), 360-366.
+
+5. Glover, N. M., Redestig, H., & Dessimoz, C. (2019). Advances and applications in the quest for orthologs. Molecular Biology and Evolution, 36(10), 2157-2164.
+
+6. Kanehisa, M., & Goto, S. (2000). KEGG: Kyoto Encyclopedia of Genes and Genomes. Nucleic Acids Research, 28(1), 27-30.
+
+7. Kanehisa, M., Furumichi, M., Sato, Y., Kawashima, M., & Ishiguro-Watanabe, M. (2023). KEGG for taxonomybased analysis of pathways and genomes. Nucleic Acids Research, 51(D1), D587-D592.
+
+8. Kent, W. J., Sugnet, C. W., Furey, T. S., Roskin, K. M., Pringle, T. H., Zahler, A. M., & Haussler, D. (2002). The human genome browser at UCSC. Genome Research, 12(6), 996-1006.
+
+</div>
+
+---
+
+# References
+
+<div style="font-size: 12px; opacity: 0.75; margin-top: -6px;">(2/2)</div>
+
+<div style="font-size: 12px; line-height: 1.35;">
+
+9. Kim, B. Y., Wang, J. R., Miller, D. E., Koury, S. A., Jewell, C. P., Liao, E. J., Nyunt, A. M., Kiernan, G. P., Ma, S. D., Pyo, L. S., Park, S. G., Knowles, A. S., Earl, D. A., Lipshultz, A. L., Mahadevaraju, S., Oliver, B., Nuzhdin, S. V., Granger, L. T., Erickson, J. W., ... & Kopp, A. (2021). Highly contiguous assemblies of 101 drosophilid genomes. eLife, 10, e66405.
+
+10. Larkin, A., Marygold, S. J., Antonazzo, G., Attrill, H., Dos Santos, G., Garapati, P. V., Goodman, J. L., Gramates, L. S., Millburn, G., Strelets, V. B., Tabone, C. J., Thurmond, J., & FlyBase Consortium. (2021). FlyBase: Updates to the Drosophila melanogaster knowledge base. Nucleic Acids Research, 49(D1), D899-D907.
+
+11. Paysan-Lafosse, T., Blum, M., Chugani, S., Grego, T., Pinto, B. L., Salazar, G. A., Bileschi, M. L., Bork, P., Bridge, A., Colwell, L., Gough, J., Haft, D. H., Letunic, I., Marchler-Bauer, A., Mi, H., Natale, D. A., Necci, M., Orengo, C. A., Pandurangan, A. P., ... & Bateman, A. (2023). InterPro in 2022. Nucleic Acids Research, 51(D1), D418-D427.
+
+12. Singh, N. D., Larracuente, A. M., Akashi, H., & Clark, A. G. (2009). Comparative genomics on the Drosophila phylogenetic tree. Annual Review of Ecology, Evolution, and Systematics, 40, 601-626.
+
+13. Stark, A., Lin, M. F., Kheradpour, P., Pedersen, J. S., Parts, L., Carlson, J. W., Crosby, M. A., Rasmussen, M. D., Roy, S., Deoras, A. N., Ruby, J. G., Brennecke, J., Hodges, E., Hinrichs, A. S., Caspi, A., Paten, B., Wigge, P. A., Afshar, B., Abbott, S., ... & Kellis, M. (2007). Discovery of functional elements in 12 Drosophila genomes using evolutionary signatures. Nature, 450(7167), 219-232.
+
+14. Tegenfeldt, F., Simao, F. A., Seppey, M., & Zdobnov, E. M. (2024). OrthoDB and BUSCO update: Annotation of orthologs with wider sampling of genomes. Nucleic Acids Research, 52(D1), D397-D404.
+
+15. Yang, T.-H., Hsu, C.-W., Wang, Y.-X., Yu, C.-H., Rathod, J., Tseng, Y.-Y., & Wu, W.-S. (2022). YMLA: A comparative platform to carry out functional enrichment analysis for multiple gene lists in yeast. Computers in Biology and Medicine, 151(Part B), 106314. https://doi.org/10.1016/j.compbiomed.2022.106314
+
+16. Wu, W.-S., Wang, L.-J., Yen, H.-C., & Tseng, Y.-Y. (2020). YQFC: a web tool to compare quantitative biological features between two yeast gene lists. Database, 2020, baaa076. https://doi.org/10.1093/database/baaa076
+
+</div>
